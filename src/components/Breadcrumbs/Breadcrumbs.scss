@@ -1,0 +1,13 @@
+@import "../../../styles/settings";
+
+.container-bread{
+  width: 100%;
+  .bread-crumbs{
+    font-family: $font-stack;
+    font-size: 14px;
+    font-weight: 330;
+    color:$soft-blue
+  }
+}
+
+

@@ -1,0 +1,44 @@
+@import "../../../styles/settings";
+
+.container-navbar{
+  background-color: $primary-color;
+  position: relative;
+  .navbar {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    min-height: 50px;
+    position: relative;
+    padding: 0 1rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+
+    .logo-meli {
+      img {
+        width: 50px;
+        height: auto;
+        top: 4px;
+        position: relative;
+      }
+    }
+    .buscador{
+      div{
+        margin-left: 200px;
+        .home-buscador{
+          width:40vw;
+          height:30px;
+          border: none;
+          padding: 0 5px;
+        }
+      }
+    }
+
+  }
+
+}
+
+

@@ -1,0 +1,17 @@
+@import "../../../styles/settings";
+.container-loader{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+}
+.loader-img {
+  img {
+    width: 100px;
+    height: auto;
+    position: relative;
+  }
+}
+
+
